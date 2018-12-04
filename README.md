@@ -42,3 +42,5 @@ Here are the functions of all the Pins:
 		 * __A4__ - Drives Valve #22 via a transistor(on the valve board). Can be used as a GPIO if slave board is not connected.
 		 * __A1__ - Drives Valve #21 via a transistor(on the valve board). Can be used as a GPIO if slave board is not connected.
 		 * __A0__ - Drives Valve #20 via a transistor(on the valve board). Can be used as a GPIO if slave board is not connected.
+
+The yellow, green and white button are connected to the base of the transistors driving their respective valves and override the signal from the Arduino. They are intended to be used for testing a new soft robot without any coding.
