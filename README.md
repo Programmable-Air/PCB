@@ -10,12 +10,12 @@ Below is the pin definition for the v0.5 of the board:
 
 Here are the functions of all the Pins:
 
-* Power:
+* __Power:__
 	* __Vin(+12V)__ - from the external power source
 	* __+5V__ - Regulated 5V from Arduino's linear 5V regulator
 	* __GND__ - Common ground for all signals
 
-* Onboard chips:
+* __Connections on master board:__
 	* __D10__ - Drives the base of the transistor for Motor 1
 	* __D11__ - Drives the base of the transistor for Motor 2
 	* __D12__ - Drives the three onboard neopixels(for debugging and such)
@@ -24,21 +24,21 @@ Here are the functions of all the Pins:
 	* __D3__ - Connected to the __red__ button, pulled up using the internal 20K resistor and connects to ground when button is pressed
 	* __AREF__ - Connected to a LM4040 +5V voltage reference
 
-* Connections to slave boards
-	* Board 0	 
+* __Connections to slave boards__
+	* __Board 0__
 		* __A3__ - Pressure sensor output(on the valve board). Can be used as a GPIO if slave board is not connected. Range~ 1V-4V
 		* __D4__ - Drives Valve #02 via a transistor(on the valve board). Can be used as a GPIO if slave board is not connected.
 		* __D5__ - Drives Valve #01 via a transistor(on the valve board). Can be used as a GPIO if slave board is not connected.
 		* __D6__ - Drives Valve #00 via a transistor(on the valve board). Can be used as a GPIO if slave board is not connected.
 
-	* Board 1
+	* __Board 1__
 		 * __A2__ - Pressure sensor output(on the valve board). Can be used as a GPIO if slave board is not connected. Range~ 1V-4V
 		 * __D9__ - Drives Valve #12 via a transistor(on the valve board). Can be used as a GPIO if slave board is not connected.
 		 * __D8__ - Drives Valve #11 via a transistor(on the valve board). Can be used as a GPIO if slave board is not connected.
 		 * __D7__ - Drives Valve #10 via a transistor(on the valve board). Can be used as a GPIO if slave board is not connected.
 
-	* Board 2
- 	 * __A5__ - Pressure sensor output(on the valve board). Can be used as a GPIO if slave board is not connected. Range~ 1V-4V
- 	 * __A4__ - Drives Valve #22 via a transistor(on the valve board). Can be used as a GPIO if slave board is not connected.
- 	 * __A1__ - Drives Valve #21 via a transistor(on the valve board). Can be used as a GPIO if slave board is not connected.
- 	 * __A0__ - Drives Valve #20 via a transistor(on the valve board). Can be used as a GPIO if slave board is not connected.
+	* __Board 2__
+		 * __A5__ - Pressure sensor output(on the valve board). Can be used as a GPIO if slave board is not connected. Range~ 1V-4V
+		 * __A4__ - Drives Valve #22 via a transistor(on the valve board). Can be used as a GPIO if slave board is not connected.
+		 * __A1__ - Drives Valve #21 via a transistor(on the valve board). Can be used as a GPIO if slave board is not connected.
+		 * __A0__ - Drives Valve #20 via a transistor(on the valve board). Can be used as a GPIO if slave board is not connected.
