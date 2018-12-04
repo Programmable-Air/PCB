@@ -6,7 +6,7 @@ The electronics for Programmable-Air are pretty simple, as these things go. The 
 
 Below is the pin definition for the v0.5 of the board:
 
-[!Programmable-Air PCB v0.5 Pin Definitions](https://github.com/Programmable-Air/PCB/blob/master/programmable-air-v0.5/pinDefinitions.png)
+![Programmable-Air PCB v0.5 Pin Definitions](https://github.com/Programmable-Air/PCB/blob/master/programmable-air-v0.5/pinDefinitions.png)
 
 Here are the functions of all the Pins:
 
