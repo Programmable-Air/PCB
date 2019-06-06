@@ -1,5 +1,10 @@
 # PCB
 
+## Crowdfunding live at [CrowdSupply](https://www.crowdsupply.com/tinkrmind/programmable-air)
+
+[![Programmable-Air at CrowdSupply](https://i.imgur.com/vPuFaX5.png)](https://www.crowdsupply.com/tinkrmind/programmable-air)
+
+
 PCB for Programmable-Air
 
 The electronics for Programmable-Air are pretty simple, as these things go. The PCB is composed of two boards that are connected by default but can be snapped off and used independently. The 'master' board contains an Arduino Nano, two pumps and IO. The 'slave' board contains three valves and the pressure sensor circuit. In this way, the 'master' board contains the brains and IO as well as the pressure sources while the 'slave' board contains the valves to control air flow and feedback from the pressure sensor. The 'master' board contains connectors to attach two more slave boards, thus allowing you to control three independent soft robots with the same Arduino. However, most of the time you'd probably only use the boards in their default configuration.
