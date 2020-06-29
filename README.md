@@ -2,7 +2,7 @@
 
 ## Pre-order at [CrowdSupply](https://www.crowdsupply.com/tinkrmind/programmable-air)
 
-[![Programmable-Air at CrowdSupply](https://i.imgur.com/ChN3Sur.png)](https://www.crowdsupply.com/tinkrmind/programmable-air)
+[//]:[![Programmable-Air at CrowdSupply](https://i.imgur.com/ChN3Sur.png)](https://www.crowdsupply.com/tinkrmind/programmable-air)
 
 
 PCB for Programmable-Air
